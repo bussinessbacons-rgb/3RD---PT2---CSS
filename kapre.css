@@ -1,0 +1,35 @@
+body { text-align: center; background-color: #0b0b0b; background-image: url("forest.jpg"); background-repeat: no-repeat; background-size: cover; background-position: center; font-family: 'Nosifier', monospace; color: #e0e0e0; margin: 0; padding: 0;}
+
+nav ul { list-style-type: none; margin: 5px; padding: 5px; text-align: center; background-color: #0A0A0A; position: sticky; top: 0; border-radius: 10px; box-shadow: 0 0 15px #000000; z-index: 999;}
+
+nav ul li { display: inline-block; margin: 10px 15px;}
+
+nav ul li a { text-decoration: none; color: #f5f5f5; padding: 10px 15px; border-radius: 10px; transition: all 0.3s ease; font-weight: bold;}
+
+nav ul li a:hover { background-color: #5b1a01; box-shadow: 0 0 15px #ff4500; color: #fff;}
+
+nav ul li a.active { background-color: #8b0000; color: #fff; box-shadow: 0 0 12px #ff6347;}
+
+h1, h2 { color: #f5e6b3; text-shadow: 2px 2px 10px black, 0 0 15px #8b0000; margin-top: 20px;}
+
+h1 { font-size: 3em;}
+
+h2 { font-size: 2em;}
+
+.box { max-width: 800px; width: 90%; margin: 20px auto; padding: 20px; background-color: rgba(0,0,0,0.75); border: 2px solid #8B0000; border-radius: 15px; box-shadow: 10px 10px 20px black, inset 0 0 15px #550000; text-align: justify; font-size: 17px; line-height: 1.6;}
+
+.center { display: block; margin: 20px auto; border-radius: 15px; border: 3px solid #5b1a01; width: 400px; box-shadow: 0 0 20px #8b0000; transition: transform 0.3s ease, box-shadow 0.3s ease;}
+
+.center:hover { transform: scale(1.05); box-shadow: 0 0 30px #ff6347, 0 0 60px #8b0000 inset;}
+
+.btn { display: inline-block; text-decoration: none; background-color: #2e1a0f; color: #f5e6b3; padding: 12px 25px; margin: 5px; border-radius: 20px; font-size: 16px; font-family: 'Nosifier'; text-shadow: 0 0 5px #000; transition: all 0.3s ease; cursor: pointer; box-shadow: 0 0 10px #000000;}
+
+.btn:hover { background-color: #5b1a01; transform: scale(1.05); box-shadow: 0 0 15px #ff4500, 0 0 20px #8b0000 inset;}
+
+.btn:active {transform: scale(0.95);}
+
+.glowtext {text-shadow: 0 0 5px #020203, 0 0 10px #550000, 0 0 20px #8b0000, 0 0 40px #ff4500;}
+
+p { color: #e0e0e0; font-family: 'Nosifier', monospace; font-size: 17px; line-height: 1.6; text-align: justify;}
+
+.thick { color: #ff4500; font-weight: bold; text-shadow: 0 0 10px #ff6347;}
